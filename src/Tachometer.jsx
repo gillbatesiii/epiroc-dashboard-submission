@@ -44,34 +44,34 @@ const Tachometer = ({ minValue, maxValue, value }) => {
                 <Needle x1="100" y1="100" x2="100" y2="30" angle={angle}/>
 
                 {/* Major Markings */}
-                <text x={100 + 90 * Math.cos(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)} y={100 - 90 * Math.sin(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)}  fontSize="12">
+                <text x="36.36038969321073" y="163.63961030678928" fontSize="12">
                     0
                 </text>
-                <text x={90 * Math.cos(33.75 * Math.PI / 180)} y={90 * Math.sin(33.75* Math.PI / 180)} fontSize="12">
+                <text x="15" y="118" fontSize="12">
                     100
                 </text>
                 <text x="23" y="74" fontSize="12">
                     200
                 </text>
-                <text x="40" y="30" fontSize="12">
+                <text x="47" y="41" fontSize="12">
                     300
                 </text>
-                <text x="100" y="20" fontSize="12">
+                <text x="100" y="22" font-size="12" text-anchor="middle">
                     400
                 </text>
-                <text x="180" y="100" fontSize="12">
+                <text x="134" y="41" font-size="12">
                     500
                 </text>
-                <text x="180" y="130" fontSize="12">
+                <text x="159" y="74" font-size="12">
                     600
                 </text>
-                <text x="180" y="160" fontSize="12">
+                <text x="164" y="118" font-size="12">
                     700
                 </text>
-                <text x="100" y="180" fontSize="12">
+                <text x="142" y="163.63961030678928" font-size="12">
                     800
                 </text>
-                <text x="50%" y="70%"  text-anchor="middle" fontSize="16">
+                <text x="50%" y="70%" text-anchor="middle" fontSize="16">
                     {value}
                     <tspan fontSize={8}>RPM</tspan>
                 </text>
