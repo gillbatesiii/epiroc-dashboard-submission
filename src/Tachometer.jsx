@@ -44,7 +44,7 @@ const Tachometer = ({ minValue, maxValue, value }) => {
                 <Needle x1="100" y1="100" x2="100" y2="30" angle={angle}/>
 
                 {/* Major Markings */}
-                <text x="{100 + 90 * Math.cos(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)}" y={100 - 90 * Math.sin(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)}  fontSize="12">
+                <text x={100 + 90 * Math.cos(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)} y={100 - 90 * Math.sin(calculateAngle(minValue, maxValue, 0) * Math.PI / 180)}  fontSize="12">
                     0
                 </text>
                 <text x={90 * Math.cos(33.75 * Math.PI / 180)} y={90 * Math.sin(33.75* Math.PI / 180)} fontSize="12">
