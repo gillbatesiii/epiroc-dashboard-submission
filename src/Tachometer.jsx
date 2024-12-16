@@ -56,22 +56,22 @@ const Tachometer = ({ minValue, maxValue, value }) => {
                 <text x="47" y="41" fontSize="12">
                     300
                 </text>
-                <text x="100" y="22" font-size="12" text-anchor="middle">
+                <text x="100" y="22" fontSize="12" textAnchor="middle">
                     400
                 </text>
-                <text x="134" y="41" font-size="12">
+                <text x="134" y="41" fontSize="12">
                     500
                 </text>
-                <text x="159" y="74" font-size="12">
+                <text x="159" y="74" fontSize="12">
                     600
                 </text>
-                <text x="164" y="118" font-size="12">
+                <text x="164" y="118" fontSize="12">
                     700
                 </text>
-                <text x="142" y="163.63961030678928" font-size="12">
+                <text x="142" y="163.63961030678928" fontSize="12">
                     800
                 </text>
-                <text x="50%" y="70%" text-anchor="middle" fontSize="16">
+                <text x="50%" y="70%" textAnchor="middle" fontSize="16">
                     {value}
                     <tspan fontSize={8}>RPM</tspan>
                 </text>
