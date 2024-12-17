@@ -9,6 +9,8 @@ TODOs
   - [ ] Create Motor Speed Setting slider
   - [ ] Create Backend for Motor Speed Setting
   - [ ] Deploy to cloud (probably aws)
+    - [x] Deploy frontend to cloud
+    - [ ] Deploy backend to cloud
 
 
 - [ ] Create Power gauge component
