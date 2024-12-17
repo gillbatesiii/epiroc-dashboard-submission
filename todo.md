@@ -1,7 +1,7 @@
 TODOs
 - [ ] Deploy an MVP with a couple of working components with backend 
   - [ ] Create Tachometer component
-    - [ ] code the functionality
+    - [x] code the functionality
     - [ ] style it to look like mockup
 
   - [ ] Create Backend for Tachometer
