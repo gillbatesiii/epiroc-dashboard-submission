@@ -1,6 +1,6 @@
 class MotorModel {
     constructor() {
-        this.rpm = 0;
+        this.rpm = 500;
     }
 
     getRPM() {
