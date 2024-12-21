@@ -1,12 +1,9 @@
 import {useEffect, useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Tachometer from "./Tachometer.jsx";
 import client from "./utils.js";
 
 function App() {
-  const [count, setCount] = useState(0)
     const [rpm, setRpm] = useState(0);
 
     useEffect(() => {
